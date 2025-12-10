@@ -1,0 +1,12 @@
+Updates:
+- FlexRIC compiled
+- nearRT-RIC starts
+- binds to port 36421
+- ready for E2 connections
+
+Near-RT RIC is 100 % working and listening on 127.0.0.1:36421
+[NEAR-RIC]: nearRT-RIC IP Address = 127.0.0.1, PORT = 36421
+[NEAR-RIC]: Initializing
+[iApp]: Initializing ...
+[iApp]: nearRT-RIC IP Address = 127.0.0.1, PORT = 36422
+[NEAR-RIC]: Initializing Task Manager with 2 threads
