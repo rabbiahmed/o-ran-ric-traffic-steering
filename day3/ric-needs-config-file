@@ -1,0 +1,10 @@
+oran$ kubectl -n ric get pods -w
+NAME READY STATUS RESTARTS AGE
+near-rt-ric-55d7bf95f6-56vls 0/1 CrashLoopBackOff 2 (18s ago) 34s
+
+Observations:
+The pod is in CrashLoopBackOff because it’s missing the config file. But, the binary itself is working.
+The RIC works perfectly inside the container. It just needs the config file in /usr/local/etc/flexric/flexric.conf.
+
+Next step: 
+Debug this error.
